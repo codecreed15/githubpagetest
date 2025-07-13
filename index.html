@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="src/images/CodeCreed2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Code Creed</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="navlink" href="#"
+          ><img class="logo" src="/src/images/CodeCreed2.png" alt=""
+        /></a>
+        <ul class="navList">
+          <li><a href="#id_about">Acerca de mí</a></li>
+          <li><a href="#id_projects">Proyectos</a></li>
+          <li><a href="#id_skills">Skills</a></li>
+          <li><a href="#contentExperiences">Experiencia</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container about">
+        <article class="contentAbout">
+          <article class="presentation">
+            <h1 class="headingPrimary presentHeading">
+              ¡Hola ahí! Soy Brandon,
+            </h1>
+            <h1 class="headingPrimary presentHeading">
+              Desarrollador Fullstack Web y Móvil
+            </h1>
+            <h2 class="headingSecondary presentHeading2">
+              Ayudo a negocios, empresas y equipos a transformar ideas en
+              experiencias digitales eficientes, seguras y escalables.
+            </h2>
+
+            <h3 class="headingThirdy presentHeading3">
+              Soy el creador de <b>Code Creed</b>, una marca personal que
+              representa una filosofía clara:
+              <b>“Desde las sombras del código, forjamos el mañana”</b>.
+            </h3>
+
+            <article id="id_about" class="callAction">
+              <a class="button" href="/src/data/Brandon Michael Gutiérrez Vázquez CV.pdf">Descargar CV 📄 </a>
+              <a class="button" href="#id_contactme">Contáctame</a>
+            </article>
+          </article>
+          <img class="profileImage" src="src/images/imagen.jpg" alt="" />
+        </article>
+      </section>
+
+      <section class="container me">
+        <h2 class="headingPrimary colorWhite">Acerca de mí</h2>
+        <p class="paraghaph paraghaph-center">
+          Soy un desarrollador fullstack apasionado por crear soluciones
+          digitales sólidas y elegantes. Mi enfoque combina pensamiento
+          estratégico, diseño funcional y desarrollo técnico de calidad. Mi
+          especialidad abarca desde la creación de <b>sitios web modernos</b> y
+          <b>sistemas web escalables</b>, hasta el desarrollo de
+          <b>aplicaciones móviles y de escritorio</b>. También tengo experiencia
+          en infraestructura, soporte IT, y automatización de procesos. Fundé
+          <b>Code Creed</b> como una filosofía y marca: creo que el código no es
+          solo funcional, sino una forma de arte y de cambio. Me inspiran las
+          ideas que nacen desde cero, los desafíos complejos y construir
+          sistemas que perduren. Actualmente, colaboro con empresas,
+          emprendedores y particulares que buscan un desarrollo serio, eficiente
+          y humano
+        </p>
+
+        <h2>Forged in code’s shadows, built for tomorrow.</h2>
+      </section>
+
+      <section id="id_projects" class="container projects">
+        <h2 class="headingPrimary colorWhite">Proyectos</h2>
+        <article id="contentProjects" class="projectsSlide">
+          <template id="template">
+            <article id="#proyect" class="project">
+              <img
+                loading="lazy"
+                class="imagenProject"
+                src="/src/images/image.png"
+                alt=""
+              />
+              <h3 class="headingThirdy projectTitle">
+                Sitio web corporativo Aspersoras ARSARO
+              </h3>
+              <p class="paraghaph projectDescription">
+                Como desarrollador en el equipo técnico de
+                <strong>Aspersoras ARSARO</strong>, colaboré activamente en el
+                diseño, estructura, desarrollo y despliegue del sitio web
+                corporativo actual.
+              </p>
+              <ul class="projectTecnologies"></ul>
+            </article>
+          </template>
+        </article>
+      </section>
+
+      <section id="id_skills" class="container skills">
+        <h2 class="headingPrimary colorWhite">Habilidades</h2>
+        <article id="contentSkills" class="skillContent">
+          <template id="template2">
+            <article class="skillCard">
+              <h3 class="headingThirdy headingSkills">Frontend</h3>
+              <ul class="iconSkills"></ul>
+            </article>
+          </template>
+        </article>
+      </section>
+      <section id="contentExperiences" class="container experienceContent">
+        <h2 class="headingPrimary colorWhite TitleExp">Experiencia</h2>
+        <template id="template3">
+          <details class="experienceCard">
+            <summary class="experienceTitle">
+              <strong class="expPosition headingSecondary"
+                >Título del rol</strong
+              >
+              —
+              <span class="expProject headingSecondary"
+                >Nombre del proyecto</span
+              >
+            </summary>
+            <p class="expClient">
+              <strong>Cliente:</strong>
+              <span class="expClientName">Nombre del cliente</span>
+            </p>
+            <p class="expDate">
+              <strong>Fecha:</strong> <span class="expFecha">Fecha</span>
+            </p>
+            <p class="expUbicacion">
+              <strong>Ubicación:</strong> <span class="expLugar">Lugar</span>
+            </p>
+            <p class="expDescripcion">Descripción del trabajo realizado.</p>
+            <ul class="expTecnologias"></ul>
+          </details>
+        </template>
+      </section>
+      <section id="servicios" class="container projects">
+        <h2 class="headingPrimary colorWhite">Servicios</h2>
+        <article id="contentServicios" class="servicesSlide">
+          <template id="template4">
+            <article class="service">
+              <h3 class="headingThirdy serviceTitle"></h3>
+              <p class="paraghaph serviceDescription"></p>
+              <p class="estado"></p>
+              <h4>Precio</h4>
+              <h5 class="precio">$0.00</h5>
+              <ul class="serviceTecnologies"></ul>
+            </article>
+          </template>
+        </article>
+        <article class="nota">
+          💬 Nota: Todos los precios son aproximados y pueden ajustarse según la
+          complejidad del proyecto. Ofrezco tarifas accesibles sin sacrificar
+          calidad, ideales para emprendedores, negocios locales o proyectos
+          personales con alto impacto.
+        </article>
+      </section>
+      <section id="id_contactme" class="container contactme">
+        <h2 class="headingPrimary colorWhite">Contáctame</h2>
+        <article class="formulario">
+          <article class="infoContacto">
+            <h3>Puedes contactárme vía WhatsApp!</h3>
+            <a id="whatsapp" href="https://wa.me/4251282483">Contáctame</a>
+            <p class="paraghaph">
+              Puedes contactárme por mis redes sociales o llenando el formulario
+              de contácto. Te responderé lo antes posible. ¡Gracias!☺
+            </p>
+          </article>
+          <form
+            class="form"
+            action="https://formsubmit.co/codecreed.dev@gmail.com"
+            method="POST"
+            id="form-contacto"
+          >
+            <article class="form__inputs">
+              <input type="text" name="Nombre" placeholder="nombre" />
+              <input
+                type="number"
+                id="telefono"
+                name="telefono"
+                placeholder="telefono"
+              />
+              <input type="text" name="asunto" placeholder="Asunto" />
+            </article>
+
+            <textarea
+              name="Mensaje"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+            ></textarea>
+
+            <button class="button" type="submit">
+              <b>ENVIAR</b>
+            </button>
+            <input type="hidden" name="_next" value="index.html" />
+            <input type="hidden" name="_captcha" value="false" />
+          </form>
+        </article>
+        <article class="redes">
+          <h3 class="headingThirdy">¡Gracias por visitar mi sitio web!</h3>
+          <ul class="redesIcon">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/brandon-michael-guti%C3%A9rrez-v%C3%A1zquez-6a616b33a/" target="_blank"
+                ><img class="icon" src="src/images/linkedin.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/codecreed15"
+                target="_blank"><img class="icon" src="src/images/github.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/codecreed_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"><img class="icon" src="src/images/instagram.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://youtube.com/@codecreed-b6g6k?si=vAB4zgm8r7nmGypx"
+                target="_blank"><img class="icon" src="src/images/youtube.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <script src="/src/scripts/projects.js"></script>
+    <script src="/src/scripts/skills.js"></script>
+    <script src="/src/scripts/experiences.js"></script>
+    <script src="src/scripts/servicios.js"></script>
+    <script src="/src/scripts/ruta.js"></script>
+  </body>
+</html>

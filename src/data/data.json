@@ -1,0 +1,195 @@
+{
+  "Proyectos": {
+    "sitioArsaro": {
+      "title": "Sitio web corporativo Aspersoras ARSARO",
+      "imagen": "arsaro.webp",
+      "descripcion1": "Como desarrollador en el equipo técnico de Aspersoras ARSARO, colaboré activamente en el diseño, estructura, desarrollo y despliegue del sitio web corporativo actual",
+      "tecnologias": ["HTML", "JavaScript", "SASS", "NodeJS"],
+      "url": "https://aspersorasarsaro.com.mx"
+    },
+
+    "citasArsaro": {
+      "title": "Sistemas de Citas Aspersoras ARSARO",
+      "imagen": "citas.png",
+      "descripcion1": "Sistema web desarrollado como parte de mis residencias. Permitía agendar citas de prospectos de venta, administrar usuarios y horarios. Aunque no fue implementado, me dejó un gran aprendizaje técnico y práctico.",
+      "tecnologias": ["HTML", "JavaScript", "CSS", "PHP", "OpenStream API"],
+      "url": "https://github.com/codecreed15/Sistemas-de-CItas-Aspersoras-ARSARO.git"
+    },
+
+    "generadorSubtitulos": {
+      "title": "Generador de Subtitulos",
+      "imagen": "generador.webp",
+      "descripcion1": "Herramienta en desarrollo que permite transcribir audio a texto y generar subtítulos automáticamente utilizando inteligencia artificial (Whisper) y procesamiento multimedia (FFmpeg). El proyecto busca simplificar la creación de subtítulos en múltiples idiomas, con soporte local y sin depender de servicios en la nube. Ideal para creadores de contenido o tareas de accesibilidad.",
+      "tecnologias": ["NodeJS", "CSS", "Electron", "FFmpeg", "Whispper"],
+      "url": "https://github.com/codecreed15/Generador_Subtitulos_Whispper.git"
+    }
+  },
+  "Skills": {
+    "Frontend": {
+      "tecnologias": {
+        "HTML": "html.webp",
+        "CSS": "css.webp",
+        "JavaScript": "javascript.webp",
+        "Bootstrap": "bootstrap.webp",
+        "SASS": "sass.webp"
+      }
+    },
+    "Backend": {
+      "tecnologias": {
+        "Node.js": "nodejs.webp",
+        "Express": "express.png",
+        "PHP": "pnp.webp",
+        "MongoDB": "mongodb.webp",
+        "MySQL": "mysql.webp"
+      }
+    },
+    "Learning": {
+      "tecnologias": {
+        "Flutter": "flutter.png",
+        "Spring Boot": "springboot.webp"
+      }
+    },
+    "Tools": {
+      "tecnologias": {
+        "Figma": "figman.png",
+        "VSCode": "vscode.webp",
+        "Postman": "postman.png",
+        "Git": "git.webp",
+        "GitHub": "github.webp"
+      }
+    }
+  },
+
+  "Experiencias": [
+    {
+      "titulo": "Desarrollador Web",
+      "proyecto": "Sitio web Aspersoras ARSARO",
+      "cliente": "Aspersoras ARSARO",
+      "fecha": "Julio 2023 – Diciembre 2023",
+      "ubicacion": "Tancítaro, México",
+      "descripcion": "Diseño y desarrollo completo de una página web institucional responsiva. Se integró un formulario de contacto, optimización SEO básica y despliegue en hosting del cliente.",
+      "tecnologias": ["HTML", "SASS", "JavaScript", "NodeJS", "OpenStream API"]
+    },
+    {
+      "titulo": "Técnico en Redes",
+      "proyecto": "Instalación y configuración de internet Starlink",
+      "cliente": "Aspersoras ARSARO",
+      "fecha": "Enero 2025",
+      "ubicacion": "Tancítaro, México",
+      "descripcion": "Instalación física del equipo Starlink, orientación del satélite, configuración inicial del router y verificación de conectividad en dispositivos de la empresa y servicio NGROK.",
+      "tecnologias": [
+        "Starlink",
+        "Redes",
+        "Wi-Fi",
+        "Configuración LAN",
+        "NGROK"
+      ]
+    },
+    {
+      "titulo": "Técnico en Seguridad",
+      "proyecto": "Sistema de videovigilancia",
+      "cliente": "Aspersoras ARSARO",
+      "fecha": "Agosto 2024",
+      "ubicacion": "Ciudad Guzmán, México",
+      "descripcion": "Instalación y configuración de cámaras de seguridad. Cableado estructurado, configuración del DVR/NVR y acceso remoto vía aplicación móvil.",
+      "tecnologias": ["CCTV", "DVR", "Red LAN", "Aplicación móvil"]
+    }
+  ],
+
+  "Servicios": [
+    {
+      "titulo": "Landing Page Profesional",
+      "descripcion": "Landing page responsive con formulario de contacto, enlaces a redes y optimización básica. Cada sección extra: $500 MXN.",
+      "precio": 1800,
+      "categoria": "Desarrollo Web",
+      "estado": "Disponible",
+      "etiquetas": ["HTML", "CSS", "JS", "Responsive", "SEO"]
+    },
+    {
+      "titulo": "Sitio Web Corporativo (2 secciones)",
+      "descripcion": "Sitio institucional con Inicio y Contacto. Cada página adicional tiene un costo de $1300 MXN.",
+      "precio": 2600,
+      "categoria": "Desarrollo Web",
+      "estado": "Disponible",
+      "etiquetas": ["HTML", "CSS", "JS", "Hosting", "Responsivo"]
+    },
+    {
+      "titulo": "Sistema Web a Medida",
+      "descripcion": "Aplicaciones web con login, panel de control, CRUD, roles y más. El precio base puede variar según módulos e integraciones.",
+      "precio": 9000,
+      "categoria": "Sistemas Web",
+      "estado": "Disponible",
+      "etiquetas": ["Full Stack", "Node.js", "PHP", "MongoDB", "MySQL"]
+    },
+    {
+      "titulo": "Aplicación de Escritorio",
+      "descripcion": "App local multiplataforma con Electron. Ideal para herramientas offline como generadores, gestores, controladores, etc.",
+      "precio": 6000,
+      "categoria": "Apps de Escritorio",
+      "estado": "Disponible",
+      "etiquetas": ["Electron", "Node.js", "UI/UX", "Gestores"]
+    },
+    {
+      "titulo": "Aplicación Móvil (Flutter)",
+      "descripcion": "Aplicación móvil multiplataforma con Flutter. Ideal para MVPs, apps de registro, herramientas personales. Precio base variable según funciones.",
+      "precio": 13000,
+      "categoria": "Apps Móviles",
+      "estado": "Disponible",
+      "etiquetas": ["Flutter", "Dart", "Firebase", "UI Móvil"]
+    },
+    {
+      "titulo": "Instalación de Cámara de Videovigilancia (por unidad)",
+      "descripcion": "Instalación y configuración de una cámara IP o análoga. Incluye cableado básico, montaje y pruebas. Ideal para hogares o negocios. Precio por cámara adicional: $900 MXN.",
+      "precio": 900,
+      "categoria": "Tecnología y Seguridad",
+      "estado": "Disponible",
+      "etiquetas": ["CCTV", "Instalación", "Redes", "IP", "Análoga"]
+    },
+    {
+      "titulo": "Paquete DVR + 4 Cámaras",
+      "descripcion": "Instalación completa de DVR/NVR y 4 cámaras. Incluye configuración de red, acceso remoto y pruebas funcionales. Precio puede aumentar según cantidad de cámaras y complejidad del lugar.",
+      "precio": 3200,
+      "categoria": "Tecnología y Seguridad",
+      "estado": "Disponible",
+      "etiquetas": ["CCTV", "DVR", "Instalación", "Configuración", "Redes"]
+    },
+    {
+      "titulo": "Instalación de Red Doméstica",
+      "descripcion": "Configuración de red para casa habitación o pequeño local. Incluye router principal, 1 punto de acceso y pruebas básicas.",
+      "precio": 1500,
+      "categoria": "Tecnología y Redes",
+      "estado": "Disponible",
+      "etiquetas": ["Redes", "WiFi", "LAN", "Doméstico", "Configuración"]
+    },
+    {
+      "titulo": "Instalación de Red Empresarial",
+      "descripcion": "Instalación de red local empresarial (router, switch, puntos de acceso). Ideal para oficinas o espacios de trabajo. El precio base puede aumentar según nodos, cableado y configuración avanzada.",
+      "precio": 3500,
+      "categoria": "Tecnología y Redes",
+      "estado": "Disponible",
+      "etiquetas": ["Redes", "Empresarial", "LAN", "Configuración", "Switch"]
+    },
+    {
+      "titulo": "Soporte Técnico IT (visita estándar)",
+      "descripcion": "Diagnóstico, mantenimiento, instalación de software o formateo. El precio es por visita estándar. Puede ajustarse según el tipo de equipo o complejidad del problema.",
+      "precio": 1100,
+      "categoria": "Soporte Técnico",
+      "estado": "Disponible",
+      "etiquetas": [
+        "Windows",
+        "Linux",
+        "Mantenimiento",
+        "Formateo",
+        "Asistencia"
+      ]
+    },
+    {
+      "titulo": "Migración a Correos Corporativos",
+      "descripcion": "Migración a Outlook/M365 o Gmail empresarial. Incluye configuración segura y respaldo de cuentas.",
+      "precio": 1200,
+      "categoria": "Soluciones Empresariales",
+      "estado": "Disponible",
+      "etiquetas": ["Correo", "Outlook", "M365", "Gmail"]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/src/data/data.json")
+  fetch("../src/data/data.json")
     .then((response) => response.json())
     .then((data) => {
       const proyectos = data["Proyectos"];

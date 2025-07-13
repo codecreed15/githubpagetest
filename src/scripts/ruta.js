@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/data.json")
+  fetch("https://raw.githubusercontent.com/codecreed15/githubpagetest/main/data.json")
     .then((response) => response.json())
     .then((data) => {
       const proyectos = data["Proyectos"];

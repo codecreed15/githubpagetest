@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/data.json")
+  fetch("https://raw.githubusercontent.com/codecreed15/githubpagetest/main/data.json")
     .then((response) => response.json())
     .then((data) => {
       crearExperiencias(data["Experiencias"]);

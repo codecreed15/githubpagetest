@@ -1,7 +1,7 @@
 const skillsContainer = document.getElementById("contentSkills");
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/src/data/data.json")
+  fetch("/data.json")
     .then((response) => response.json())
     .then((data) => {
       crearSkills(data["Skills"]); // 👈 nueva función

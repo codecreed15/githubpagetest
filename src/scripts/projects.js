@@ -18,7 +18,7 @@ function crearCards(datos) {
   Object.entries(datos).forEach(([id, proyecto]) => {
     const clone = template.cloneNode(true);
     clone.querySelector(".project").id = id;
-    clone.querySelector(".imagenProject").src = `/src/images/${proyecto.imagen}`;
+    clone.querySelector(".imagenProject").src = `src/images/${proyecto.imagen}`;
     clone.querySelector(".projectTitle").textContent = proyecto.title;
     clone.querySelector(".projectDescription").textContent =
       proyecto.descripcion1;

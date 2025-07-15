@@ -612,6 +612,7 @@ textarea:focus {
   }
 
   .button {
+    width: auto;
     height: 30px;
     font-size: 0.9rem;
     padding: 4px;

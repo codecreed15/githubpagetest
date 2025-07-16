@@ -886,7 +886,7 @@ textarea:focus {
 
   .profileImage {
     width: calc(50% - 1%);
-    height: 65%;
+    height: 70%;
     object-fit: cover;
   }
 

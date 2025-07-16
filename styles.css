@@ -1039,6 +1039,7 @@ padding: 0px;
   .infoContacto {
     width: 50%;
     gap: calc(40px - 1px);
+    justify-content: center;
   }
 
   .infoContacto h3 {

@@ -867,6 +867,9 @@ textarea:focus {
   font-size: calc(1em);
 }
 
+.about{
+  height: 60vh;
+}
 
   .button {
     width:calc(auto);

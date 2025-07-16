@@ -642,185 +642,436 @@ textarea:focus {
   }
 
   .projects {
-  gap: 30px;
+    gap: 30px;
+  }
+
+  .projectsSlide {
+    padding: 00px;
+  }
+
+  .project {
+    width: 30%;
+    height: 60vh;
+    padding: 5px;
+    gap: 20px;
+  }
+
+  .imagenProject {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+  }
+
+  .projectTitle {
+    font-size: 1rem;
+    color: var(--black-rose);
+  }
+
+  .projectDescription {
+    font-size: 0.8rem;
+  }
+
+  .projectTecnologies li {
+    padding: 8px;
+    font-size: 0.5rem;
+  }
+
+  .skills {
+    height: auto;
+    gap: 40px;
+    margin-top: 80px;
+  }
+
+  .skillContent {
+    gap: 40px;
+  }
+
+  .skillCard {
+    width: 30%;
+    height: 360px;
+    padding: 10px;
+  }
+
+  .headingSkills {
+    padding: 20px;
+  }
+
+  .iconSkills {
+    gap: 20px;
+  }
+
+  .iconImagen {
+    width: 80px;
+    height: 80px;
+  }
+
+  .experienceContent {
+    margin-top: 0px;
+  }
+
+  .TitleExp {
+    margin-bottom: 40px;
+  }
+
+  .expDescripcion {
+    width: 80%;
+  }
+
+  .expTecnologias {
+    gap: 20px;
+  }
+  .service {
+    height: 50vh;
+    width: 30%;
+  }
+
+  .service h4,
+  .estado {
+    font-size: 1rem;
+  }
+  .serviceTitle {
+    font-size: 1.2rem;
+    height: 80px;
+    color: var(--black-rose);
+  }
+
+  .precio {
+    font-size: 2rem;
+    color: var(--black-rose);
+  }
+
+  .serviceDescription {
+    height: 15vh;
+    font-size: 0.8rem;
+  }
+
+  .serviceTecnologies {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 10vh;
+    padding: 10px;
+  }
+
+  .nota {
+    font-size: 1rem;
+  }
+
+  .infoContacto {
+    gap: 40px;
+  }
+
+  .infoContacto h3 {
+    font-size: 1.4rem;
+    color: var(--black-rose);
+  }
+
+  #whatsapp {
+    padding: 8px;
+    font-size: 1.5rem;
+  }
+
+  .infoContacto .paraghaph {
+    width: 100%;
+  }
+
+  .formulario {
+    width: 100%;
+  }
+  .form {
+    width: 80%;
+  }
+
+  .form__inputs {
+    gap: 10px;
+  }
+
+  .form__inputs input {
+    padding: 8px;
+    width: 60%;
+  }
+
+  textarea {
+    width: 60%;
+  }
+  .redes {
+    height: 15vh;
+  }
+
+  .redes h3 {
+    font-size: 1.5rem;
+    color: var(--black-rose);
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
 }
 
-.projectsSlide {
-  padding: 00px;
-}
+@media (max-width: 1024px) {
+  .headingPrimary {
+    font-size: calc(2rem - 0.1rem);
+  }
 
-.project {
-  width: 30%;
-  height: 60vh;
-  padding:5px;
-  gap: 20px;
-}
+  .headingSecondary {
+    font-size: calc(1.1rem - 0.1rem);
+  }
 
+  .headingThirdy {
+    font-size: calc(0.99rem - 0.1);
+    color: var(--silver-sand);
+  }
+  .presentation {
+    width: calc(70% - 1%);
+    padding: 10px;
+  }
 
-.imagenProject {
+  .presentHeading {
+    width: calc(90% - 1%);
+  }
+
+  .presentHeading2 {
+    width: 80%;
+    margin-top: 30px;
+  }
+
+  .presentHeading3 {
+    width: 70%;
+    margin-top: 30px;
+  }
+
+  .header {
+  background-color: #14141434;
   width: 100%;
-  height: 180px;
-  border-radius: 15px;
-}
-
-.projectTitle {
-  font-size: 1rem;
-  color: var(--black-rose);
-}
-
-.projectDescription {
-  font-size: 0.8rem;
-}
-
-
-.projectTecnologies li {
-  padding: 8px;
-  font-size: 0.5rem;
-}
-
-
-.skills {
   height: auto;
-  gap: 40px;
-  margin-top: 80px;
-}
-
-.skillContent {
-  gap: 40px;
-}
-
-.skillCard {
-  width:30%;
-  height: 360px;
-  padding: 10px;
-}
-
-.headingSkills {
-  padding: 20px;
-}
-
-.iconSkills {
-  gap: 20px;
-}
-
-.iconImagen {
-  width: 80px;
-  height: 80px;
-}
-
-
-.experienceContent {
-  margin-top: 0px;
-}
-
-.TitleExp {
-  margin-bottom: 40px;
-}
-
-.expDescripcion {
-  width: 80%;
-}
-
-.expTecnologias {
-  gap: 20px;
-}
-.service {
-  height: 50vh;
-  width: 30%;
+  position: fixed;
 }
 
 
 
-.service h4,
-.estado {
-  font-size: 1rem;
-}
-.serviceTitle {
-  font-size: 1.2rem;
-  height: 80px;
-  color: var(--black-rose);
+.navlink {
+  width: calc(50% - 1%);
 }
 
-
-
-.precio {
-  font-size: 2rem;
-  color: var(--black-rose);
+.logo {
+  width: calc(100px - 1px);
+  height: calc(6vh - 0.1vh);
 }
 
-.serviceDescription {
-  height: 15vh;
-  font-size: 0.8rem;
+.navList {
+  width: calc(60% - 1%);
 }
 
-.serviceTecnologies {
-  font-size: 0.8rem;
-  flex-wrap: wrap;
-  gap: 20px;
-  height: 10vh;
-  padding: 10px;
-}
-
-.nota {
-  font-size: 1rem;
+.navList li {
+  font-size: calc(1.2rem - 0.1rem);
 }
 
 
+  .button {
+    width:calc(auto + 10px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    font-size: calc(0.9rem - 0.1rem);
+    padding: 10px;
+  }
+
+  .callAction {
+    width: calc(60% - 1%);
+    height: auto;
+  }
+
+  .profileImage {
+    width: calc(50% - 1%);
+    height: calc(60% - 1%);
+  }
+
+  .me {
+    height: calc(40vh - 0.1vh);
+    gap: calc(30px - 1px);
+  }
+
+  .me .headingPrimary{
+    margin-top: 60px;
+  }
+
+  .paraghaph {
+    font-size: calc(1rem - 0.01rem);
+  }
+
+  .projects {
+    gap: 30px;
+    height: auto;
+  }
+
+  .projectsSlide {
+    padding: 00px;
+    height: auto;
+    width: 100%;
+  
+  }
+
+  .project {
+    width: calc(33% - 1%);
+    height: auto;
+    flex-wrap: wrap;
+    gap: calc(20px - 1px);
+  }
+
+  .imagenProject {
+    width: 100%;
+    height: calc(140px - 1px);
+  }
+
+  .projectTitle {
+    font-size: calc(1rem - 0.01rem);
+    color: var(--black-rose);
+    height: calc(5vh - 0.1vh);
+  }
+
+  .projectDescription {
+    font-size: calc(0.7rem - 0.01rem);
+    height: calc(10vh - 0.1vh);
+    overflow: scroll;
+  }
+
+  .projectTecnologies{
+    height: calc(10vh - 0.1vh);
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .projectTecnologies li {
+    padding: 8px;
+    height: auto;
+    font-size: calc(0.7rem - 0.2rem);
+  }
+
+  .skills {
+    height: auto;
+    gap: calc(20px - 1px);
+    margin-top: 10px;
+  }
+
+  .skillContent {
+    gap: calc(15px - 1px);
+  }
+
+  .skillCard {
+    width: 40%;
+    height: calc(361px - 1px);
+    padding: 10px;
+  }
+
+  .headingSkills {
+    padding: 20px;
+  }
+
+  .iconSkills {
+    gap: calc(15px - 1px);
+  }
+
+  .iconImagen {
+    width: calc(60px - px);
+    height: calc(60px - 1px);
+  }
 
 
-.infoContacto {
-  gap: 40px;
-}
+  .TitleExp {
+    margin-bottom: 40px;
+  }
 
-.infoContacto h3 {
-  font-size: 1.4rem;
-  color: var(--black-rose);
-}
+  .expDescripcion {
+    width: 80%;
+  }
 
-#whatsapp {
-  padding: 8px;
-  font-size: 1.5rem;
-}
+  .expTecnologias {
+    gap: 20px;
+  }
+  .service {
+    height: calc(50vh - 0.1vh);
+    width: 40%;
+  }
 
-.infoContacto .paraghaph {
-  width: 100%;
-}
+  .service h4,
+  .estado {
+    font-size: calc(1rem - 0.01rem);
+  }
+  .serviceTitle {
+    font-size: calc(1.2rem - 0.01rem);
+    height: calc(80px - 1px);
+    color: var(--black-rose);
+  }
 
-.formulario{
-  width: 100%;
-}
-.form{
-  width: 80%;
-}
+  .precio {
+    font-size: calc(2rem - 0.1rem);
+    color: var(--black-rose);
+  }
 
-.form__inputs {
-  gap: 10px;
-}
+  .serviceDescription {
+    height: calc(15vh - 0.1vh);
+    font-size: 0.7em;
+  }
 
-.form__inputs input {
-  padding: 8px;
-  width: 60%;
-}
+  .serviceTecnologies {
+    font-size: 0.8em;
+  }
 
+  .nota {
+    font-size: 0.8em;
+  }
 
+  .infoContacto {
+    gap: calc(40px - 1px);
+  }
 
-textarea {
-  width: 60%;
-}
-.redes {
-  height: 15vh;
-}
+  .infoContacto h3 {
+    font-size: 1.4em;
+    color: var(--black-rose);
+  }
 
-.redes h3 {
-  font-size: 1.5rem;
-  color: var(--black-rose);
-}
+  #whatsapp {
+    padding: 8px;
+    font-size: 1.5em;
+  }
 
+  .infoContacto .paraghaph {
+    width: 100%;
+  }
 
+  .formulario {
+    width: 100%;
+  }
+  .form {
+    width: calc(60%-1%);
+  }
 
-.icon {
-  width: 40px;
-  height: 40px;
-}
+  .form__inputs {
+    gap: 10px;
+  }
 
+  .form__inputs input {
+    padding: 8px;
+    width: calc(70% - 1%);
+  }
+
+  textarea {
+    width: calc(70% - 1%);
+  }
+  .redes {
+    height: 15vh;
+  }
+
+  .redes h3 {
+    font-size: 1.5em;
+    color: var(--black-rose);
+  }
+
+  .icon {
+    width: calc(30px - 1px);
+    height: calc(30px - 1px);
+  }
 }

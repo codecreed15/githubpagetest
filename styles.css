@@ -580,9 +580,10 @@ textarea:focus {
     brightness(110%) contrast(110%);
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1400px) {
   .headingPrimary {
     font-size: 2rem;
+    background: rebeccapurple;
   }
 
   .headingSecondary {
@@ -809,7 +810,7 @@ textarea:focus {
   }
 }
 
-@media (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .headingPrimary {
     font-size: calc(2rem - 0.1rem);
   }
@@ -887,6 +888,7 @@ textarea:focus {
   .profileImage {
     width: calc(50% - 1%);
     height: calc(60% - 1%);
+    object-fit: cover;
   }
 
   .me {
@@ -1074,4 +1076,4 @@ textarea:focus {
     width: calc(30px - 1px);
     height: calc(30px - 1px);
   }
-}
+} */

@@ -916,37 +916,40 @@ textarea:focus {
     padding: 00px;
     height: auto;
     width: 100%;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
   
   }
 
   .project {
-    width: calc(33% - 1%);
+    width: 70%;
     height: auto;
-    flex-wrap: wrap;
-    gap: calc(20px - 1px);
+    gap: 20px;
+      text-align: center;
   }
 
   .imagenProject {
     width: 100%;
-    height: calc(140px - 1px);
+    height: 200px;
   }
 
   .projectTitle {
     font-size: calc(1rem - 0.01rem);
     color: var(--black-rose);
-    height: calc(5vh - 0.1vh);
+    height: 2vh;
   }
 
   .projectDescription {
-    font-size: calc(0.7rem - 0.01rem);
-    height: calc(10vh - 0.1vh);
-    overflow: scroll;
+    font-size: 0.66em;
+    height: 10vh;
+  
   }
 
   .projectTecnologies{
-    height: calc(10vh - 0.1vh);
+    height: 5vh;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
   }
 
   .projectTecnologies li {

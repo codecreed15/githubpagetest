@@ -583,7 +583,6 @@ textarea:focus {
 @media (max-width: 1400px) {
   .headingPrimary {
     font-size: 2rem;
-    background: rebeccapurple;
   }
 
   .headingSecondary {

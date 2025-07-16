@@ -869,6 +869,7 @@ textarea:focus {
 
 .about{
   height: 60vh;
+  margin-top: 0;
 }
 
   .button {

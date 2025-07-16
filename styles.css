@@ -1033,12 +1033,17 @@ textarea:focus {
     font-size: 0.8em;
   }
 
+  .contactme{
+padding: 0px;
+  }
   .infoContacto {
+    width: 50%;
     gap: calc(40px - 1px);
   }
 
   .infoContacto h3 {
     font-size: 1.4em;
+    width: 60%;
     color: var(--black-rose);
   }
 
@@ -1048,14 +1053,14 @@ textarea:focus {
   }
 
   .infoContacto .paraghaph {
-    width: 100%;
+    width: 80%;
   }
 
   .formulario {
     width: 100%;
   }
   .form {
-    width: calc(60%-1%);
+    width:50%;
   }
 
   .form__inputs {
@@ -1064,11 +1069,12 @@ textarea:focus {
 
   .form__inputs input {
     padding: 8px;
-    width: calc(70% - 1%);
+    width:100%;
   }
 
   textarea {
-    width: calc(70% - 1%);
+    width: 100%;
+    height: 15vh;
   }
   .redes {
     height: 15vh;
